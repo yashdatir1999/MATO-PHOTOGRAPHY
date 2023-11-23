@@ -244,14 +244,15 @@ body::-webkit-scrollbar{
 .page3-left >h2{
     opacity: 1;
     line-height: 3vmax;
-    color: black;
+    color: white;
+    transform: translateY(-2vmax);
     font-weight: 900;
     font-size: 3vmax;
 }
 .page3-left >h2 >span{
     font-weight: 700;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.1vmax whitesmoke;
+    -webkit-text-stroke: 0.1vmax red;
 }
 .page3-right{
     height: 100%;
@@ -293,21 +294,22 @@ body::-webkit-scrollbar{
 }
 .footer{
     height: 30vh;
-    width: 100%;
-    /* background-color: orange; */
+    width: 90%;
+    margin: auto;
+    background-color: grey;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .footer >h2{
     width: 30%;
-    color: whitesmoke;
+    color: black;
 
 }
 .footer >h2 >p{
     margin-top: 1vmax;
     font-size: 1vmax;
-    color: rgba(245, 245, 245, 0.83);
+    color: black;
     font-weight: 100;
 }
 .footer >ul{
@@ -316,5 +318,5 @@ body::-webkit-scrollbar{
     gap: 2vmax;
     font-size: 2vmax;
     font-weight: 100;
-    color: whitesmoke;
+    color: black;
 }
